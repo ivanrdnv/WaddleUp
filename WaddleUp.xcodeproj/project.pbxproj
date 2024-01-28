@@ -54,6 +54,8 @@
 		417661D22B65251800E15C5A /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417661D12B65251800E15C5A /* RegisterViewViewModel.swift */; };
 		417661D42B65252800E15C5A /* WaddleUpItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417661D32B65252800E15C5A /* WaddleUpItemViewViewModel.swift */; };
 		417661D62B65253900E15C5A /* WaddleUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417661D52B65253900E15C5A /* WaddleUpViewViewModel.swift */; };
+		417661D82B652FB100E15C5A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417661D72B652FB100E15C5A /* HeaderView.swift */; };
+		41E595AA2B6692C7005A4E54 /* NewYorkExtraLarge-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41E595A92B6692C7005A4E54 /* NewYorkExtraLarge-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		417661D12B65251800E15C5A /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		417661D32B65252800E15C5A /* WaddleUpItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaddleUpItemViewViewModel.swift; sourceTree = "<group>"; };
 		417661D52B65253900E15C5A /* WaddleUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaddleUpViewViewModel.swift; sourceTree = "<group>"; };
+		417661D72B652FB100E15C5A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		41E595A92B6692C7005A4E54 /* NewYorkExtraLarge-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkExtraLarge-Black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				417661BF2B65229D00E15C5A /* RegisterView.swift */,
 				417661C12B6522CA00E15C5A /* WaddleUpItemView.swift */,
 				417661C32B65238E00E15C5A /* WaddleUpView.swift */,
+				417661D72B652FB100E15C5A /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,11 +199,20 @@
 		417661B62B6520EC00E15C5A /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				41E595A82B669296005A4E54 /* Font */,
 				417661702B619C8400E15C5A /* Assets.xcassets */,
 				417661B12B651E0F00E15C5A /* GoogleService-Info.plist */,
 				4176616C2B619C8100E15C5A /* WaddleUpApp.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		41E595A82B669296005A4E54 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				41E595A92B6692C7005A4E54 /* NewYorkExtraLarge-Black.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,7 @@
 			files = (
 				417661742B619C8400E15C5A /* Preview Assets.xcassets in Resources */,
 				417661712B619C8400E15C5A /* Assets.xcassets in Resources */,
+				41E595AA2B6692C7005A4E54 /* NewYorkExtraLarge-Black.otf in Resources */,
 				417661B22B651E1000E15C5A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				417661C82B65241500E15C5A /* WaddleUpItem.swift in Sources */,
+				417661D82B652FB100E15C5A /* HeaderView.swift in Sources */,
 				417661D02B6524D800E15C5A /* LoginViewViewModel.swift in Sources */,
 				417661BE2B65228700E15C5A /* LoginView.swift in Sources */,
 				417661CA2B65245100E15C5A /* MainViewViewModel.swift in Sources */,
@@ -457,6 +473,7 @@
 				DEVELOPMENT_TEAM = 8T4FJXZQPD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaddleUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Waddle Up";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -486,6 +503,7 @@
 				DEVELOPMENT_TEAM = 8T4FJXZQPD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaddleUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Waddle Up";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
